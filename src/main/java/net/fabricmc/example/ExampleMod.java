@@ -12,7 +12,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
-import  net.minecraft.client.render.entity.
+
 public class ExampleMod implements ModInitializer {
 	public static final Item TORCH_LAUNCHER = new TorchTest(new FabricItemSettings().group(ItemGroup.MISC));
 
