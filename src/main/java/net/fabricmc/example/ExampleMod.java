@@ -18,7 +18,7 @@ public class ExampleMod implements ModInitializer {
 
 	public static final EntityType<Entitytest> CUBE = Registry.register(
 			Registry.ENTITY_TYPE,
-			new Identifier("entitytesting", "cube"),
+			new Identifier("example", "cube"),
 			FabricEntityTypeBuilder.create(SpawnGroup.MISC, Entitytest::new).dimensions(EntityDimensions.fixed(0.75f, 0.75f)).build()
 	);
 	@Override
